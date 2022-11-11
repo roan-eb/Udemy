@@ -1,0 +1,80 @@
+@use "../abstracts/variables" as *;
+
+.section__three {
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-container {
+        flex-direction: row-reverse;
+        display: flex;
+        padding: 0;
+    }
+
+    &-containerTwo{
+        display: flex;
+        padding: 0;
+    }
+
+    &-img {
+        margin: 0;
+        display: inherit;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    &-wrapper{
+        margin: 0 6.6rem 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 40rem;
+        text-align: left;    
+    }
+
+    &-wrapperTwo{
+        margin: 0 0 0 6.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 40rem;
+        text-align: left;    
+    }
+
+    &-h3 {
+        font-size: 3rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &-p{
+        font-size: 1.6rem;
+    }
+
+    &-ul {
+        margin-bottom: 1.6rem;
+        padding: 0;
+        max-width: none;
+    }
+
+    &-li{
+        margin-bottom: 1.5rem;
+        font-size: 2rem;    
+    }
+
+    &-button{
+        margin-top: 2rem;
+    }
+    &-buttonTwo{
+        margin-top: 6rem;
+    }
+}
+
+.bigger {
+    height: 5rem;
+}
+
+.bottom{
+    padding-bottom: 18rem;
+}

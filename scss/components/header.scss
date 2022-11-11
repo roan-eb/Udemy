@@ -1,0 +1,47 @@
+.header {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2.4rem;
+    max-width: 134rem;
+    padding-bottom: 2rem;
+
+    &__img{
+        object-fit: cover;
+
+    }
+}
+
+.header__article {
+    position: absolute;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, .08), 0 0.4rem 1.2rem rgba(0, 0, 0, .08);
+    padding: 2.4rem;
+    left: 7.2rem;
+    top: 6.4rem;
+    max-width: 44rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 100vw;
+}
+
+.header__article > h1 {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -0.05rem;
+    margin-bottom: 0.8rem;
+}
+
+.header__article > p {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.header__articleSmall{
+    display: none;
+}
